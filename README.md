@@ -12,9 +12,13 @@ This dataset contains relatively weak predictors for the outcome (opinions can b
 
 # Current Results
 
-The models run so far have only had accuracy slightly above random chance, so nothing to write home about. However it is interesting that the simplest model, the logistic, has the greatest AUC.
+The models run so far have only had accuracy slightly above random chance, so nothing to write home about. However, it is interesting that the simplest model, the logistic, has the greatest AUC.
 
 ![ROC](ROC.png)
+
+The following are the top 3 most important features for each model:
+
+![table](top_features_table.png)
 
 Further work is going to use natural langauge processing (NLP) on the essay variables and incorporate them into the models to see if this improves results
 
